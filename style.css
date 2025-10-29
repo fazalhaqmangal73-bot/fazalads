@@ -1,1 +1,103 @@
-<link rel="stylesheet" href="style.css">
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+}
+
+header {
+  background-color: #111;
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 2px solid #00ff88;
+}
+
+h1 {
+  color: #00ff88;
+  margin: 0.5rem 0;
+}
+
+nav a {
+  color: #e0e0e0;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #00ff88;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: linear-gradient(to bottom, #0f0f0f, #000);
+}
+
+.content, .gallery, .contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+.ads-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.ad-box {
+  background-color: #1a1a1a;
+  border: 1px solid #00ff88;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;
+}
+
+.images img {
+  width: 300px;
+  border-radius: 8px;
+  margin: 10px;
+  border: 2px solid #00ff88;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #00ff88;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  background-color: #00ff88;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #00cc66;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  border-top: 2px solid #00ff88;
+  margin-top: 2rem;
+}
