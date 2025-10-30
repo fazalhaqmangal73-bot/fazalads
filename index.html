@@ -3,96 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>تازه غزل | حافظ انس حقاني</title>
+  <title>Fazal Ads | اعلانونه او خبرونه</title>
   <style>
     body {
-      font-family: 'Tahoma', sans-serif;
-      background-color: #0f0f0f;
-      color: #fff;
+      font-family: sans-serif;
       margin: 0;
-      padding: 0;
-      line-height: 1.8;
+      background: #121212;
+      color: white;
     }
     header {
-      background-color: #1a1a1a;
-      padding: 25px;
+      background: #000;
+      padding: 20px;
       text-align: center;
-      border-bottom: 3px solid #f90;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #f5c518;
     }
-    header h1 {
-      color: #f90;
-      margin: 0;
-      font-size: 26px;
-    }
-    main {
-      max-width: 800px;
-      margin: 40px auto;
+    nav {
+      display: flex;
+      justify-content: center;
       background: #1c1c1c;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #f5c518;
+    }
+    section {
+      display: none;
       padding: 30px;
-      border-radius: 14px;
-      box-shadow: 0 0 20px rgba(255, 153, 0, 0.2);
-      border-right: 5px solid #f90;
+      animation: fadeIn 0.5s ease;
     }
-    .poem-title {
-      color: #f90;
-      font-size: 22px;
-      text-align: center;
-      margin-bottom: 10px;
+    section.active {
+      display: block;
     }
-    .poet-name {
-      text-align: center;
-      color: #aaa;
-      font-size: 15px;
-      margin-bottom: 25px;
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
     }
-    .poem {
-      color: #ddd;
-      text-align: center;
-      font-size: 20px;
-      line-height: 2;
-      white-space: pre-line;
+    .gallery img {
+      width: 30%;
+      margin: 10px;
+      border-radius: 10px;
     }
     footer {
       text-align: center;
       padding: 15px;
-      background-color: #111;
-      color: #888;
+      background: #000;
       border-top: 1px solid #333;
-      margin-top: 50px;
+      margin-top: 30px;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
+  <header>Fazal Ads - اعلانونه او خبرونه</header>
 
-  <header>
-    <h1>Fazal Ads | د ادب برخه ✨</h1>
-  </header>
+  <nav>
+    <a href="#" onclick="showSection('home')">🏠 Home</a>
+    <a href="#" onclick="showSection('news')">📰 News</a>
+    <a href="#" onclick="showSection('gallery')">📸 Gallery</a>
+    <a href="#" onclick="showSection('contact')">📞 Contact</a>
+  </nav>
 
-  <main>
-    <h2 class="poem-title">تازه غزل</h2>
-    <p class="poet-name">الحاج حافظ انس حقاني</p>
+  <section id="home" class="active">
+    <h2>ښه راغلاست Fazal Ads ته</h2>
+    <p>دا ويب‌پاڼه د اعلانونو، خبرونو، او ټولنيزو راپورونو لپاره جوړه شوې ده.</p>
+  </section>
 
-    <div class="poem">
-      څۀ نازک حالت او څۀ نازکه فیصله<br>
-      پام کوه چې و نکړې چابکه فیصله<br><br>
+  <section id="news">
+    <h2>اوسني خبرونه</h2>
+    <p>📢 د نن ورځ تازه اعلانونه او راپورونه دلته ښکاري.</p>
+    <ul>
+      <li>د کابل په ښار کې د سوداګريز مرکز پرانېسته وشوه.</li>
+      <li>د ښځو د روزګار د نوې پروژې اعلان وشو.</li>
+    </ul>
+  </section>
 
-      تا ته خو ټول کلي دی توی‌وړی واک درکړی<br>
-      ته به نو بیا کله کړې ملکه فیصله؟<br><br>
+  <section id="gallery" class="gallery">
+    <h2>عکسونه او ويډيوګانې</h2>
+    <img src="https://via.placeholder.com/300x200" alt="عکس ۱">
+    <img src="https://via.placeholder.com/300x200" alt="عکس ۲">
+    <img src="https://via.placeholder.com/300x200" alt="عکس ۳">
+  </section>
 
-      بیا بۀ د جیلم پۀ ښار کې ووینې لښکرې<br>
-      یو ځل که تر سره شي اټکه فیصله<br><br>
-
-      مه خوږوه زړونه د پېغور په تېره ژبه<br>
-      دلته جرګې کړې ده هلکه فیصله<br><br>
-
-      شخړې په خبرو حل کېدلای شي انسه<br>
-      کله کله نه شي بې‌ ټوپـکه فیصله
-    </div>
-  </main>
+  <section id="contact">
+    <h2>اړيکې</h2>
+    <p>که غواړئ اعلان خپور کړئ يا راپور شريک کړئ، نو له موږ سره اړيکه ونيسئ:</p>
+    <p>📧 Email: <a href="mailto:fazalhaqmangal73@.com" style="color:#f5c518;">fazalhaqmangal73@.com</a></p>
+    <p>📱 WhatsApp: +93 786374506</p>
+  </section>
 
   <footer>
-    <p>© 2025 Fazal Ads | ټول حقونه خوندي دي</p>
+    © 2025 Fazal Ads - ټول حقوق محفوظ دي
   </footer>
 
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
 </body>
 </html>
