@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ps">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fazal Ads - راپور ۱</title>
+</head>
+<body style="font-family: Arial; background-color: black; color: white; padding: 20px;">
+  <h1>📰 د کابل د بازار راپور</h1>
+  <p><b>نېټه:</b> ۲۹ اکتوبر ۲۰۲۵</p>
+  <img src="news1.jpg" alt="د خبر انځور" style="width:100%; border-radius:10px;">
+  <p>
+    نن د فاضل اعلانونو ټيم د کابل د کاروبار په اړه نوی راپور خپور کړ...
+  </p>
+  <a href="index.html" style="color: yellow;">🏠 بېرته کور پاڼې ته ستنېدل</a>
+</body>
+</html>
