@@ -3,113 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fazal Ads | اعلانونه او خبرونه</title>
+  <title>Fazal Ads - راپور</title>
   <style>
     body {
-      font-family: sans-serif;
-      margin: 0;
-      background: #121212;
+      background-color: #0a0a0a;
       color: white;
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
     }
     header {
-      background: #000;
-      padding: 20px;
+      background-color: #111;
       text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-      letter-spacing: 1px;
-      border-bottom: 2px solid #f5c518;
+      padding: 20px;
+      border-bottom: 2px solid #00bcd4;
     }
-    nav {
-      display: flex;
-      justify-content: center;
+    header h1 {
+      color: #00bcd4;
+      font-size: 2em;
+    }
+    .report {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
       background: #1c1c1c;
-      padding: 10px 0;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #00bcd440;
     }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
+    .report h2 {
+      color: #00bcd4;
     }
-    nav a:hover {
-      color: #f5c518;
-    }
-    section {
-      display: none;
-      padding: 30px;
-      animation: fadeIn 0.5s ease;
-    }
-    section.active {
-      display: block;
-    }
-    @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-    }
-    .gallery img {
-      width: 30%;
-      margin: 10px;
+    .report img, .report video {
+      width: 100%;
       border-radius: 10px;
+      margin-top: 15px;
     }
     footer {
       text-align: center;
-      padding: 15px;
-      background: #000;
-      border-top: 1px solid #333;
-      margin-top: 30px;
-      font-size: 14px;
+      margin: 30px;
+    }
+    footer a {
+      color: #00bcd4;
+      text-decoration: none;
+      border: 1px solid #00bcd4;
+      padding: 8px 15px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    footer a:hover {
+      background-color: #00bcd4;
+      color: black;
     }
   </style>
 </head>
 <body>
-  <header>Fazal Ads - اعلانونه او خبرونه</header>
+  <header>
+    <h1>Fazal Ads - د اعلانونو او خبرونو راپورونه</h1>
+  </header>
 
-  <nav>
-    <a href="#" onclick="showSection('home')">🏠 Home</a>
-    <a href="#" onclick="showSection('news')">📰 News</a>
-    <a href="#" onclick="showSection('gallery')">📸 Gallery</a>
-    <a href="#" onclick="showSection('contact')">📞 Contact</a>
-  </nav>
-
-  <section id="home" class="active">
-    <h2>ښه راغلاست Fazal Ads ته</h2>
-    <p>دا ويب‌پاڼه د اعلانونو، خبرونو، او ټولنيزو راپورونو لپاره جوړه شوې ده.</p>
-  </section>
-
-  <section id="news">
-    <h2>اوسني خبرونه</h2>
-    <p>📢 د نن ورځ تازه اعلانونه او راپورونه دلته ښکاري.</p>
-    <ul>
-      <li>د کابل په ښار کې د سوداګريز مرکز پرانېسته وشوه.</li>
-      <li>د ښځو د روزګار د نوې پروژې اعلان وشو.</li>
-    </ul>
-  </section>
-
-  <section id="gallery" class="gallery">
-    <h2>عکسونه او ويډيوګانې</h2>
-    <img src="https://via.placeholder.com/300x200" alt="عکس ۱">
-    <img src="https://via.placeholder.com/300x200" alt="عکس ۲">
-    <img src="https://via.placeholder.com/300x200" alt="عکس ۳">
-  </section>
-
-  <section id="contact">
-    <h2>اړيکې</h2>
-    <p>که غواړئ اعلان خپور کړئ يا راپور شريک کړئ، نو له موږ سره اړيکه ونيسئ:</p>
-    <p>📧 Email: <a href="mailto:fazalhaqmangal73@.com" style="color:#f5c518;">fazalhaqmangal73@.com</a></p>
-    <p>📱 WhatsApp: +93 786374506</p>
-  </section>
+  <div class="report">
+    <h2>📰افغان فوځ  نن رسمى پوځي تمرينات پيل  کړل#تازه🚨   </h2>
+    <p><b>نېټه:</b> ۲۹ اکتوبر ۲۰۲۵</p>
+    <img src="news1.jpg" alt="خبر انځور">
+    <p>د ۲۰۵ البدر قول اردو مطبوعاتي دفتر خبر ورکړی، چې د کندهار د پنجوايي ولسوالۍ په فضا ګرځېدونکې الوتکې د دفاع وزارت اړوند د افغان هوايي ځواک دي او هېوادوال دې په دې اړه اندېښنه نه کوي.
+قول اردو ويلي، افغان هوایي ځواک نن پنجشنبه د کندهار په پنجوایي ولسولۍ کې د هليکوپټرو او هندۍ الوتکو پر مټ تمرينات ترسره کوي.
+ياده دې وي، چې افغان هوايي ځواک په وروستيو کې د نويو الوتکو له ترميم وروسته او په ځينو نورو حالاتو کې د هېواد په بېلابېلو ولايتونو کې تمرينات ترسره کوي..
+    </p>
+    <video controls>
+      <source src="report-video.mp4" type="video/mp4">
+      ستاسو براوزر ویډیو نه‌شي ښودلی.
+    </video>
+  </div>
 
   <footer>
-    © 2025 Fazal Ads - ټول حقوق محفوظ دي
+    <a href="index.html">🏠 بېرته کور پاڼې ته ستنېدل</a>
   </footer>
-
-  <script>
-    function showSection(id) {
-      document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
-      document.getElementById(id).classList.add('active');
-    }
-  </script>
 </body>
 </html>
