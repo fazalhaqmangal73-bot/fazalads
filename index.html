@@ -1,115 +1,14 @@
-<!DOCTYPE html>
-<html lang="ps">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fazal Ads | اعلانونه او خبرونه</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      background: #121212;
-      color: white;
-    }
-    header {
-      background: #000;
-      padding: 20px;
-      text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-      letter-spacing: 1px;
-      border-bottom: 2px solid #f5c518;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background: #1c1c1c;
-      padding: 10px 0;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    nav a:hover {
-      color: #f5c518;
-    }
-    section {
-      display: none;
-      padding: 30px;
-      animation: fadeIn 0.5s ease;
-    }
-    section.active {
-      display: block;
-    }
-    @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-    }
-    .gallery img {
-      width: 30%;
-      margin: 10px;
-      border-radius: 10px;
-    }
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #000;
-      border-top: 1px solid #333;
-      margin-top: 30px;
-      font-size: 14px;
-    }
-  </style>
-</head>
-<body>
-  <header>Fazal Ads - اعلانونه او خبرونه</header>
-
-  <nav>
-    <a href="#" onclick="showSection('home')">🏠 Home</a>
-    <a href="#" onclick="showSection('news')">📰 News</a>
-    <a href="#" onclick="showSection('gallery')">📸 Gallery</a>
-    <a href="#" onclick="showSection('contact')">📞 Contact</a>
-  </nav>
-
-  <section id="home" class="active">
-    <h2>ښه راغلاست Fazal Ads ته</h2>
-    <p>دا ويب‌پاڼه د اعلانونو، خبرونو، او ټولنيزو راپورونو لپاره جوړه شوې ده.</p>
-  </section>
-
-  <section id="news">
-    <h2>اوسني خبرونه</h2>
-    <p>📢 د نن ورځ تازه اعلانونه او راپورونه دلته ښکاري.</p>
-    <ul>
-      <li>د کابل په ښار کې د سوداګريز مرکز پرانېسته وشوه.</li>
-      <li>د ښځو د روزګار د نوې پروژې اعلان وشو.</li>
-    </ul>
-  </section>
-
-  <section id="gallery" class="gallery">
-    <h2>عکسونه او ويډيوګانې</h2>
-    <img src="https://via.placeholder.com/300x200" alt="عکس ۱">
-    <img src="https://via.placeholder.com/300x200" alt="عکس ۲">
-    <img src="https://via.placeholder.com/300x200" alt="عکس ۳">
-  </section>
-
-  <section id="contact">
-    <h2>اړيکې</h2>
-    <p>که غواړئ اعلان خپور کړئ يا راپور شريک کړئ، نو له موږ سره اړيکه ونيسئ:</p>
-    <p>📧 Email: <a href="mailto:fazalhaqmangal73@.com" style="color:#f5c518;">fazalhaqmangal73@.com</a></p>
-    <p>📱 WhatsApp: +93 786374506</p>
-  </section>
-
-  <footer>
-    © 2025 Fazal Ads - ټول حقوق محفوظ دي
-  </footer>
-
-  <script>
-    function showSection(id) {
-      document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
-      document.getElementById(id).classList.add('active');
-    }
-  </script>
-</body>
-</html>
+<div class="news-article" style="background:#fff;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.1);padding:20px;margin-bottom:20px;line-height:1.8;">
+  <h2 style="color:#004aad;">افغان فوځ نن رسمى پوځي تمرينات پيل کړل <span style="color:red;">#تازه🚨</span></h2>
+  <p style="color:#555;">🗓️ نېټه: ۲۰۲۵-۱۰-۳۰</p>
+  <p style="font-size:16px;">
+    د ۲۰۵ البدر قول اردو مطبوعاتي دفتر خبر ورکړی، چې د کندهار د پنجوايي ولسوالۍ په فضا ګرځېدونکې الوتکې د دفاع وزارت اړوند د افغان هوايي ځواک دي او هېوادوال دې په دې اړه اندېښنه نه کوي.
+  </p>
+  <p style="font-size:16px;">
+    قول اردو ويلي، افغان هوایي ځواک نن پنجشنبه د کندهار په پنجوایي ولسولۍ کې د هليکوپټرو او هندۍ الوتکو پر مټ تمرينات ترسره کوي.
+  </p>
+  <p style="font-size:16px;">
+    ياده دې وي، چې افغان هوايي ځواک په وروستيو کې د نويو الوتکو له ترميم وروسته او په ځينو نورو حالاتو کې د هېواد په بېلابېلو ولايتونو کې تمرينات ترسره کوي.
+  </p>
+  <p style="color:#888;">📰 منبع: <em>فصل حق منګل – رسمي سايټ</em></p>
+</div>
